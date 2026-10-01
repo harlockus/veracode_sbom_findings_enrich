@@ -292,7 +292,7 @@ GitHub Actions runs that test suite on `ubuntu-latest`, `windows-latest`, and `m
 
 ## Repository contents
 
-Track the source, the tests, `pyproject.toml`, `.env.example`, this README, and `SECURITY.md`. Leave these untracked:
+Track the source, the tests, `pyproject.toml`, `LICENSE`, `.env.example`, this README, and `SECURITY.md`. Leave these untracked:
 
 | Path | Why |
 | --- | --- |
@@ -303,7 +303,11 @@ Track the source, the tests, `pyproject.toml`, `.env.example`, this README, and 
 
 `output/.gitkeep` is the only file under `output/` that belongs in git. Reports from a live run contain customer vulnerability data.
 
-This directory does not include a license file. Add the license you want to grant before you publish the repository for other people to reuse.
+## License
+
+This program is released under the [MIT License](LICENSE). Copyright (c) 2026 Andrea Mazzarini. You may use, copy, modify, and distribute it, provided the copyright notice and license text stay with the software. The license includes no warranty.
+
+The reports this program writes are account data. The MIT License covers the program, not those reports.
 
 ## Publishing on GitHub
 
