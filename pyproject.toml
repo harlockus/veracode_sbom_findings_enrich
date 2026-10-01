@@ -11,7 +11,6 @@ license = "MIT"
 license-files = ["LICENSE"]
 requires-python = ">=3.11"
 classifiers = [
-  "License :: OSI Approved :: MIT License",
   "Environment :: Console",
   "Operating System :: OS Independent",
   "Programming Language :: Python :: 3",
